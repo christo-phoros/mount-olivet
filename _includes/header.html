@@ -1,0 +1,18 @@
+<header class="c-page__header">
+  <h1>{{ site.title }}</h1>
+  <h2>
+    {{ site.verse }}
+    <small>{{ site.verse_origin }}</small>
+  </h1>
+  <p class="nav">
+    <a href="{{ "/" | prepend: site.baseurl }}">Read</a>
+    <span class="u-separate"></span>
+    <a href="{{ "/resources/" | prepend:site.baseurl }}">Resources</a>
+    <span class="u-separate"></span>
+    <a href="{{ "/about/" | prepend: site.baseurl }}">About</a>
+    <span class="u-separate"></span>
+    <a href="{{ "/credits/" | prepend: site.baseurl }}">Credits</a>
+    <span class="u-separate"></span>
+    <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+  </p>
+</header>

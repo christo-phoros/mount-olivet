@@ -1,0 +1,27 @@
+# Site settings
+title: "The Mount Olivet"
+verse: > 
+  And as ye go, preach, saying, The kingdom of heaven is at hand.
+verse_origin: "Matthew 10:7"
+
+author: Christopher
+email: krzysiek.borkowski@gmail.com
+twitter_username: 
+github_username: 
+
+baseurl: ""
+url: "https://deadbeef.me" # the base hostname & protocol for your site
+
+google_analytics_id: UA-1111111111-1
+disqus_id:
+
+# Build settings
+include: [_pages]
+markdown: kramdown
+permalink: /:year/:month/:title
+
+sass:
+    style: compressed
+
+exclude: [vendor]
+
